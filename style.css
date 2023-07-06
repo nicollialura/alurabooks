@@ -4,9 +4,14 @@
     --laranja:#EB9B00;
     --azul-degrade:linear-gradient(97,54deg,#002F52 35,49%,#326589 165,37%);
     font-size: 25px;
+    --fonte-principal:"Poppins"
 }
 body{
     background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 1em;
+    font-weight: 700;
+
 }
 
  
@@ -20,7 +25,7 @@ body{
     }
 
     .cabeçalho{
-        background-color: #e7ebf2;
+        background-color: #557696;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -44,3 +49,37 @@ body{
         top: 100%;
         width: 20ww;
     }
+    .lista-menu_titulo,
+    .lista-menu_item {
+        padding: 1em;
+        background-color: var(--branco);
+    }
+    .lista-menu_titulo {
+        color: var(--laranja);
+        font-weight: 700;}
+
+    .lista-menu_link{
+        background: var(--azul-degrade);
+        -webkit-background-clip: text;
+        background-clip: text;
+        text-transform: uppercase;
+     }
+     .container_botao{
+        display: none;
+     }
+     .lista-menu{
+        display: none;
+     }
+     .banner{
+        background-color: #9aaacf;
+        color:#02153b;
+        text-align: center;
+        font-size: 20px;
+     }
+     .banner-titulo{
+        font-size: 30px;
+        font-weight: 700px;
+     }
+     .banner-texto{
+        font-weight: 500;
+     }
