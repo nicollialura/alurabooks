@@ -108,7 +108,7 @@ body{
         padding: 1em;
         width: 100%;
         text-align: center;
-        background: url("./img/Pesquisa.svg") no-repeat;
+      
         background-position: 1em;
         font-size: 20px;
      }
@@ -217,4 +217,8 @@ body{
         font-size: 18px;
         font-weight: 700;
         padding: 1em 0 0.5em 0;
+     }
+
+     .swiper-slide img{
+        width: 45%;
      }
