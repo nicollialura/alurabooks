@@ -222,3 +222,26 @@ body{
      .swiper-slide img{
         width: 45%;
      }
+
+     .card-descricao{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0,5em;
+     }
+
+     .card-botoes{
+        display: flex;
+        justify-content: space-between;
+     }
+
+   .botoes{
+    display: flex;
+   }
+
+   .card{
+    background: #326589;
+    border-radius: 30px;
+    width: 80%;
+    text-align: center;
+    align-items: center;
+   }
