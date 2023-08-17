@@ -221,6 +221,8 @@ body{
 
      .swiper-slide img{
         width: 45%;
+        padding: 10px 55px;
+        height: 300px;
      }
 
      .card-descricao{
@@ -239,9 +241,17 @@ body{
    }
 
    .card{
-    background: #326589;
+    background: #5482a3;
     border-radius: 30px;
-    width: 80%;
     text-align: center;
     align-items: center;
+    padding: 2em 5em;
+    margin: 2em 9em;
+   }
+
+   .titulo-vendidos{
+    text-align: center;
+    color: #5876b3;
+    font-size: 40px;
+    border: #5482a3;
    }
