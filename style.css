@@ -245,7 +245,7 @@ body{
     border-radius: 30px;
     text-align: center;
     align-items: center;
-    padding: 2em 5em;
+    padding: 2em 3em;
     margin: 2em 9em;
    }
 
@@ -257,5 +257,32 @@ body{
    }
 
    .botoes-item{
-    margin: 10px;
+    margin: 1px;
+   }
+
+   .descricao-imagem2{
+    width: 35%;
+   }
+
+   .botoes-ancora{
+    background-color: var(--laranja);
+    padding: 1em ;
+    color: var(--branco);
+    font-weight: 700;
+    text-decoration: none;
+   }
+
+   .descricao{
+    font-size: 30px;
+   }
+
+   .topicos{
+    background: var(--azul-degrade);
+    text-align: center;
+   }
+
+   .Titulos-topicos{
+    color: #FFFFFF;
+    font-size: 500;
+    font-size: 20px;
    }
