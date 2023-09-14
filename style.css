@@ -123,7 +123,7 @@ body{
 .menu-hamburguer{
     width: 24px;
     height: 24px;
-    background-image: url(./img/Menu.svg);
+    background-image: url(./img/Menu.svg)topicos-link;
     background-repeat: no-repeat;
     background-position: center;
     display: inline-block;
@@ -273,16 +273,33 @@ body{
    }
 
    .descricao{
-    font-size: 30px;
+    font-size: 30px;topicos-link
    }
 
    .topicos{
     background: var(--azul-degrade);
     text-align: center;
    }
+   
 
    .Titulos-topicos{
-    color: #FFFFFF;
+    color: #34087a;
     font-size: 500;
     font-size: 20px;
    }
+
+   .Topicos-lista{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   }
+    
+   .topicos-link{
+    color: #0f0707;
+    padding: 1em;
+    background-color: var(--laranja);
+    font-size: 14px;
+    margin: 10px;
+    border-radius: 14px;
+   }
+   
